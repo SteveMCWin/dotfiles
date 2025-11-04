@@ -1,0 +1,8 @@
+audio.hifi_upgraded=true
+audio.play_bitrate_non_metered_migrated=true
+connect.dial_devices="[{\"address\":\"192.168.0.215\",\"app_state\":\"MISSING\",\"created_timestamp\":1761811170,\"device_id\":\"292297480010\",\"dial_location_url\":\"http://192.168.0.215:7275/dd.xml\",\"display_name\":\"Toshiba_64:D8:1B:07:77:87\",\"last_seen\":1762252525,\"manufacturer\":\"\",\"model_name\":\"Vestel_MB185\",\"product_cap\":\"\",\"public_ip\":\"178.220.120.146\",\"wol\":{\"all_interfaces\":false,\"delay_ms\":250,\"mac\":\"64d81b077787\",\"port\":9,\"retries\":80}},{\"address\":\"192.168.0.215\",\"app_state\":\"MISSING\",\"created_timestamp\":1761229889,\"device_id\":\"00000000-0000-0000-0000-64d81b077787\",\"dial_location_url\":\"http://192.168.0.215:56790/dd.xml\",\"display_name\":\"Mediatek_MTXXXX\",\"last_seen\":1761662274,\"manufacturer\":\"MediaTek Inc.\",\"model_name\":\"Mediatek_MTXXXX\",\"product_cap\":\"\",\"public_ip\":\"178.220.120.146\",\"wol\":{\"all_interfaces\":false,\"delay_ms\":250,\"mac\":\"a68d0669baf1\",\"port\":9,\"retries\":240}}]"
+connect.mdns_devices="[]"
+audio.play_bitrate_non_metered_enumeration=5
+audio.play_bitrate_enumeration=2
+ui.hide_hpto=true
+app.player.volume=50032

@@ -1,0 +1,128 @@
+2025-10-03 18:40:29 |INF| app > Seanime 2.9.9-Natsu
+2025-10-03 18:40:29 |INF| app > OS: linux
+2025-10-03 18:40:29 |INF| app > Arch: amd64
+2025-10-03 18:40:29 |INF| app > Processor count: 16
+2025-10-03 18:40:29 |DBG| app > Initializing config
+2025-10-03 18:40:29 |INF| app > Data directory: /home/stevica/.config/Seanime
+2025-10-03 18:40:29 |INF| app > Working directory: /home/stevica
+2025-10-03 18:40:29 |INF| db > Database instantiated name=seanime.db
+2025-10-03 18:40:29 |DBG| db > Local files retrieved
+2025-10-03 18:40:29 |DBG| extensions > Loaded built-in manga provider extension id=comick
+2025-10-03 18:40:29 |DBG| extensions > Loaded built-in extension id=comick
+2025-10-03 18:40:29 |TRC| ws > Sending message type=extensions-reloaded
+2025-10-03 18:40:29 |DBG| extensions > Loaded built-in manga provider extension id=comick-multi
+2025-10-03 18:40:29 |DBG| extensions > Loaded built-in extension id=comick-multi
+2025-10-03 18:40:29 |TRC| ws > Sending message type=extensions-reloaded
+2025-10-03 18:40:29 |DBG| extensions > Loaded built-in manga provider extension id=mangapill
+2025-10-03 18:40:29 |DBG| extensions > Loaded built-in extension id=mangapill
+2025-10-03 18:40:29 |TRC| ws > Sending message type=extensions-reloaded
+2025-10-03 18:40:29 |DBG| extensions > Loaded built-in manga provider extension id=weebcentral
+2025-10-03 18:40:29 |DBG| extensions > Loaded built-in extension id=weebcentral
+2025-10-03 18:40:29 |TRC| ws > Sending message type=extensions-reloaded
+2025-10-03 18:40:29 |DBG| extensions > Loaded built-in manga provider extension id=mangadex
+2025-10-03 18:40:29 |DBG| extensions > Loaded built-in extension id=mangadex
+2025-10-03 18:40:29 |TRC| ws > Sending message type=extensions-reloaded
+2025-10-03 18:40:29 |DBG| extensions > Loaded built-in manga provider extension id=local-manga
+2025-10-03 18:40:29 |DBG| extensions > Loaded built-in extension id=local-manga
+2025-10-03 18:40:29 |TRC| ws > Sending message type=extensions-reloaded
+2025-10-03 18:40:29 |INF| local platform > Database instantiated name=local.db
+2025-10-03 18:40:29 |INF| continuity > Initialized manager
+2025-10-03 18:40:29 |DBG| manga downloader > Reading download directory
+2025-10-03 18:40:29 |TRC| ws > Sending message type=refreshed-manga-download-data
+2025-10-03 18:40:29 |DBG| app > Refreshing modules
+2025-10-03 18:40:29 |TRC| torrent repo > Setting settings
+2025-10-03 18:40:29 |DBG| nakama > Settings updated isHost=false remoteURL= username=Peer_3l12cxqq
+2025-10-03 18:40:29 |ERR| app > Failed to login to qBittorrent error="Post \"http://127.0.0.1:8081/api/v2/auth/login\": dial tcp 127.0.0.1:8081: connect: connection refused"
+2025-10-03 18:40:29 |INF| watcher > Watching directories: [anime]
+2025-10-03 18:40:29 |INF| watcher > Library size: 0 B
+2025-10-03 18:40:29 |TRC| goja runtime > Pre-warming pool size=5
+2025-10-03 18:40:29 |INF| app > Refreshed modules
+2025-10-03 18:40:29 |DBG| manga > Initialized provider extension bank
+2025-10-03 18:40:29 |DBG| onlinestream > Initialized provider extension bank
+2025-10-03 18:40:29 |DBG| torrent repo > Initialized anime provider extension bank
+2025-10-03 18:40:29 |DBG| app > Fetching Anilist data
+2025-10-03 18:40:29 |INF| app > Authenticated to AniList
+2025-10-03 18:40:29 |INF| app > Fetched Anilist data
+2025-10-03 18:40:29 |DBG| anilist > Fetching anime collection
+2025-10-03 18:40:29 |INF| mediastream > Module initialized
+2025-10-03 18:40:29 |DBG| extensions > Loaded built-in onlinestream provider extension id=animepahe
+2025-10-03 18:40:29 |DBG| extensions > Loaded built-in extension id=animepahe
+2025-10-03 18:40:29 |TRC| ws > Sending message type=extensions-reloaded
+2025-10-03 18:40:29 |DBG| extensions > Loaded built-in anime torrent provider extension id=nyaa
+2025-10-03 18:40:29 |DBG| extensions > Loaded built-in extension id=nyaa
+2025-10-03 18:40:29 |TRC| ws > Sending message type=extensions-reloaded
+2025-10-03 18:40:29 |DBG| extensions > Loaded built-in anime torrent provider extension id=nyaa-non-eng
+2025-10-03 18:40:29 |DBG| extensions > Loaded built-in extension id=nyaa-non-eng
+2025-10-03 18:40:29 |TRC| ws > Sending message type=extensions-reloaded
+2025-10-03 18:40:29 |DBG| extensions > Loaded built-in anime torrent provider extension id=nyaa-sukebei
+2025-10-03 18:40:29 |DBG| extensions > Loaded built-in extension id=nyaa-sukebei
+2025-10-03 18:40:29 |TRC| ws > Sending message type=extensions-reloaded
+2025-10-03 18:40:29 |DBG| extensions > Loaded built-in anime torrent provider extension id=animetosho
+2025-10-03 18:40:29 |DBG| extensions > Loaded built-in extension id=animetosho
+2025-10-03 18:40:29 |TRC| ws > Sending message type=extensions-reloaded
+2025-10-03 18:40:29 |DBG| extensions > Loaded built-in anime torrent provider extension id=seadex
+2025-10-03 18:40:29 |DBG| extensions > Loaded built-in extension id=seadex
+2025-10-03 18:40:29 |TRC| ws > Sending message type=extensions-reloaded
+2025-10-03 18:40:29 |TRC| extensions > Loading external extensions
+2025-10-03 18:40:29 |TRC| extensions > Interrupting Goja VMs
+2025-10-03 18:40:29 |DBG| extensions > Killed Goja VMs count=0
+2025-10-03 18:40:29 |TRC| extensions > Unloading external extensions
+2025-10-03 18:40:29 |DBG| extensions > Unloaded external extensions count=0
+2025-10-03 18:40:29 |INF| torrentstream > Initialized torrent client on port 43213
+2025-10-03 18:40:29 |TRC| torrentstream > Dropping all torrents
+2025-10-03 18:40:29 |DBG| torrentstream > Dropped all torrents
+2025-10-03 18:40:29 |INF| torrentstream > Module initialized
+2025-10-03 18:40:29 |DBG| extensions > Loaded external extensions
+2025-10-03 18:40:29 |TRC| ws > Sending message type=extensions-reloaded
+2025-10-03 18:40:29 |TRC| extensions > Checking for updates
+2025-10-03 18:40:29 |DBG| extensions > Retrieved update info haveUpdates=0
+2025-10-03 18:40:29 |INF| app > Serving embedded web interface
+2025-10-03 18:40:29 |INF| app > Web assets path: /home/stevica/.config/Seanime/assets
+2025-10-03 18:40:29 |INF| app > Manga downloads path: /home/stevica/.config/Seanime/manga
+2025-10-03 18:40:29 |INF| app > Offline assets path: /home/stevica/.config/Seanime/offline/assets
+2025-10-03 18:40:29 |INF| app > Server Address: 127.0.0.1:43211
+2025-10-03 18:40:29 |INF| app > Seanime started at http://127.0.0.1:43211
+2025-10-03 18:40:29 |TRC| ws > Sending message type=check-for-announcements
+2025-10-03 18:40:29 |DBG| animetosho > Loaded Sneedex Nyaa IDs count=1460
+2025-10-03 18:40:31 |WRN| anilist > Successful Request (slow) rlr=29 rtt=2.121s
+2025-10-03 18:40:31 |TRC| ws > Sending message type=refreshed-anilist-anime-collection
+2025-10-03 18:40:31 |TRC| ws > Sending message type=refreshed-anilist-manga-collection
+2025-10-03 18:40:31 |TRC| ws > Sending message type=server-ready
+2025-10-03 18:40:31 |DBG| anilist > Fetching manga collection
+2025-10-03 18:40:32 |INF| anilist > Successful Request rlr=28 rtt=564ms
+2025-10-03 18:40:37 |DBG| ws > Client connected id=65f119e7-ec3b-4408-953d-401f5ce6f350
+2025-10-03 18:40:37 |TRC| method=GET status=200 uri=/api/v1/status latency_human=1.531217ms
+2025-10-03 18:40:37 |TRC| method=GET status=200 uri=/api/v1/extensions/list latency_human="456.208µs"
+2025-10-03 18:40:37 |TRC| method=GET status=200 uri=/api/v1/extensions/list/development latency_human="100.502µs"
+2025-10-03 18:40:37 |TRC| method=GET status=200 uri=/api/v1/extensions/plugin-settings latency_human=1.038272ms
+2025-10-03 18:40:37 |TRC| method=GET status=200 uri=/api/v1/extensions/updates latency_human="96.801µs"
+2025-10-03 18:40:37 |TRC| method=GET status=200 uri=/api/v1/continuity/history latency_human="785.304µs"
+2025-10-03 18:40:37 |TRC| method=GET status=200 uri=/api/v1/anilist/collection latency_human="727.405µs"
+2025-10-03 18:40:37 |TRC| method=GET status=200 uri=/api/v1/library/collection latency_human=2.483373ms
+2025-10-03 18:40:37 |TRC| method=GET status=200 uri=/api/v1/library/missing-episodes latency_human="911.997µs"
+2025-10-03 18:40:37 |TRC| method=GET status=200 uri=/api/v1/auto-downloader/items latency_human="320.994µs"
+2025-10-03 18:40:37 |TRC| method=POST status=200 uri=/api/v1/announcements latency_human="811.354µs"
+2025-10-03 18:40:37 |TRC| method=GET status=200 uri=/api/v1/manga/collection latency_human="267.705µs"
+2025-10-03 18:40:37 |TRC| method=GET status=200 uri=/api/v1/continuity/history latency_human="363.318µs"
+2025-10-03 18:40:37 |TRC| anilist > Successful Request rlr=27 rtt=501ms
+2025-10-03 18:40:37 |TRC| method=POST status=200 uri=/api/v1/anilist/list-anime latency_human=503.185118ms
+2025-10-03 18:40:39 |TRC| method=GET status=200 uri=/api/v1/latest-update latency_human=1.853150212s
+2025-10-03 18:41:00 |TRC| anilist > Successful Request rlr=26 rtt=391ms
+2025-10-03 18:41:00 |TRC| method=POST status=200 uri=/api/v1/anilist/list-anime latency_human=392.783253ms
+2025-10-03 18:41:17 |TRC| anilist > Successful Request rlr=25 rtt=386ms
+2025-10-03 18:41:17 |TRC| method=POST status=200 uri=/api/v1/anilist/list-anime latency_human=387.757008ms
+2025-10-03 18:41:19 |TRC| anilist > Successful Request rlr=24 rtt=477ms
+2025-10-03 18:41:19 |TRC| method=POST status=200 uri=/api/v1/anilist/list-anime latency_human=478.618313ms
+2025-10-03 18:41:20 |TRC| anilist > Successful Request rlr=23 rtt=438ms
+2025-10-03 18:41:20 |TRC| method=POST status=200 uri=/api/v1/anilist/list-anime latency_human=440.263142ms
+2025-10-03 18:41:53 |TRC| anilist platform > Fetching anime
+2025-10-03 18:41:53 |DBG| anilist > Fetching anime mediaId=178788
+2025-10-03 18:41:53 |TRC| anilist platform > Fetching anime details
+2025-10-03 18:41:53 |DBG| anilist > Fetching anime details mediaId=178788
+2025-10-03 18:41:53 |INF| anilist > Successful Request rlr=29 rtt=525ms
+2025-10-03 18:41:54 |INF| anilist > Successful Request rlr=28 rtt=590ms
+2025-10-03 18:41:54 |TRC| method=GET status=200 uri=/api/v1/anilist/media-details/178788 latency_human=591.339474ms
+2025-10-03 18:41:54 |TRC| method=GET status=200 uri=/api/v1/library/anime-entry/178788 latency_human=770.456853ms
+2025-10-03 18:41:54 |TRC| method=GET status=200 uri=/api/v1/continuity/history latency_human="598.967µs"
+2025-10-03 18:42:19 |DBG| ws > Client disconnection id=65f119e7-ec3b-4408-953d-401f5ce6f350
+2025-10-03 18:42:20 |TRC| Received signal > interrupt

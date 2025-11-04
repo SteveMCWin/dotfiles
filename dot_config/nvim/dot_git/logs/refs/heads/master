@@ -1,0 +1,9 @@
+0000000000000000000000000000000000000000 6a21da0e51d7f3c10a1b3eacbcbcf37ba1574738 SteveMCWin <stevp003@gmail.com> 1749841384 +0200	commit (initial): first commit, added a bunch of stuff but I still need to do lsp and snippets to make this functional
+6a21da0e51d7f3c10a1b3eacbcbcf37ba1574738 9f12b570ae40c5aaf08cf424c16225808dad7307 SteveMCWin <stevp003@gmail.com> 1749842729 +0200	commit: fixed telescope keymap error
+9f12b570ae40c5aaf08cf424c16225808dad7307 aedae6f7d3bb33c3fc099f0a720d17b631d617bb SteveMCWin <stevp003@gmail.com> 1749889501 +0200	commit: added bufferline and lualine, more colorschemes and keymaps etc. etc.
+aedae6f7d3bb33c3fc099f0a720d17b631d617bb 79b15f77726a597c58d5700e3ab4259cf308f940 SteveMCWin <stevp003@gmail.com> 1749895342 +0200	commit: trying to figure out lsp
+79b15f77726a597c58d5700e3ab4259cf308f940 471756a123b51f95deb8b254ea4d514143a2c8e1 SteveMCWin <stevp003@gmail.com> 1749909008 +0200	commit: The config is 95% finished, just need to fix the theme not being loaded at the start correctly and add some more lsp servers and multiline comments
+471756a123b51f95deb8b254ea4d514143a2c8e1 5e631fc61153d9293fee9f63df64b595688397ac SteveMCWin <stevp003@gmail.com> 1749998887 +0200	commit: added some more language servers
+5e631fc61153d9293fee9f63df64b595688397ac e6aa61e8dd43db138d165b8e6738f5dfec0c0377 SteveMCWin <stevp003@gmail.com> 1750085045 +0200	commit: yeah this is pretty much all for now i think
+e6aa61e8dd43db138d165b8e6738f5dfec0c0377 f439c138e4f158651d28304e0d794c1a2e1c42b7 SteveMCWin <stevp003@gmail.com> 1760135322 +0200	commit: Added lsp and linters for sum stuff ig
+f439c138e4f158651d28304e0d794c1a2e1c42b7 56b161aeb24ee7ded4c3a00c3ab591ed9c5203d9 SteveMCWin <stevp003@gmail.com> 1762030471 +0100	commit: idk

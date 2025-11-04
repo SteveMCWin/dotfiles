@@ -1,0 +1,1715 @@
+2025-09-23 18:28:01 |INF| app > Seanime 2.9.9-Natsu
+2025-09-23 18:28:01 |INF| app > OS: linux
+2025-09-23 18:28:01 |INF| app > Arch: amd64
+2025-09-23 18:28:01 |INF| app > Processor count: 16
+2025-09-23 18:28:01 |DBG| app > Initializing config
+2025-09-23 18:28:01 |INF| app > Data directory: /home/stevica/.config/Seanime
+2025-09-23 18:28:01 |INF| app > Working directory: /home/stevica
+2025-09-23 18:28:01 |INF| db > Database instantiated name=seanime.db
+2025-09-23 18:28:01 |DBG| db > Local files retrieved
+2025-09-23 18:28:01 |DBG| extensions > Loaded built-in manga provider extension id=comick
+2025-09-23 18:28:01 |DBG| extensions > Loaded built-in extension id=comick
+2025-09-23 18:28:01 |TRC| ws > Sending message type=extensions-reloaded
+2025-09-23 18:28:01 |DBG| extensions > Loaded built-in manga provider extension id=comick-multi
+2025-09-23 18:28:01 |DBG| extensions > Loaded built-in extension id=comick-multi
+2025-09-23 18:28:01 |TRC| ws > Sending message type=extensions-reloaded
+2025-09-23 18:28:01 |DBG| extensions > Loaded built-in manga provider extension id=mangapill
+2025-09-23 18:28:01 |DBG| extensions > Loaded built-in extension id=mangapill
+2025-09-23 18:28:01 |TRC| ws > Sending message type=extensions-reloaded
+2025-09-23 18:28:01 |DBG| extensions > Loaded built-in manga provider extension id=weebcentral
+2025-09-23 18:28:01 |DBG| extensions > Loaded built-in extension id=weebcentral
+2025-09-23 18:28:01 |TRC| ws > Sending message type=extensions-reloaded
+2025-09-23 18:28:01 |DBG| extensions > Loaded built-in manga provider extension id=mangadex
+2025-09-23 18:28:01 |DBG| extensions > Loaded built-in extension id=mangadex
+2025-09-23 18:28:01 |TRC| ws > Sending message type=extensions-reloaded
+2025-09-23 18:28:01 |DBG| extensions > Loaded built-in manga provider extension id=local-manga
+2025-09-23 18:28:01 |DBG| extensions > Loaded built-in extension id=local-manga
+2025-09-23 18:28:01 |TRC| ws > Sending message type=extensions-reloaded
+2025-09-23 18:28:01 |INF| local platform > Database instantiated name=local.db
+2025-09-23 18:28:01 |INF| continuity > Initialized manager
+2025-09-23 18:28:01 |DBG| manga downloader > Reading download directory
+2025-09-23 18:28:01 |DBG| app > Refreshing modules
+2025-09-23 18:28:01 |TRC| ws > Sending message type=refreshed-manga-download-data
+2025-09-23 18:28:01 |TRC| torrent repo > Setting settings
+2025-09-23 18:28:01 |DBG| nakama > Settings updated isHost=false remoteURL= username=Peer_ujkixtw4
+2025-09-23 18:28:01 |ERR| app > Failed to login to qBittorrent error="Post \"http://127.0.0.1:8081/api/v2/auth/login\": dial tcp 127.0.0.1:8081: connect: connection refused"
+2025-09-23 18:28:01 |INF| watcher > Watching directories: [anime]
+2025-09-23 18:28:01 |INF| watcher > Library size: 0 B
+2025-09-23 18:28:01 |INF| app > Refreshed modules
+2025-09-23 18:28:01 |DBG| manga > Initialized provider extension bank
+2025-09-23 18:28:01 |DBG| onlinestream > Initialized provider extension bank
+2025-09-23 18:28:01 |DBG| torrent repo > Initialized anime provider extension bank
+2025-09-23 18:28:01 |DBG| app > Fetching Anilist data
+2025-09-23 18:28:01 |INF| app > Authenticated to AniList
+2025-09-23 18:28:01 |INF| app > Fetched Anilist data
+2025-09-23 18:28:01 |DBG| anilist > Fetching anime collection
+2025-09-23 18:28:01 |INF| mediastream > Module initialized
+2025-09-23 18:28:01 |TRC| goja runtime > Pre-warming pool size=5
+2025-09-23 18:28:01 |INF| torrentstream > Initialized torrent client on port 43213
+2025-09-23 18:28:01 |TRC| torrentstream > Dropping all torrents
+2025-09-23 18:28:01 |DBG| extensions > Loaded built-in onlinestream provider extension id=animepahe
+2025-09-23 18:28:01 |DBG| extensions > Loaded built-in extension id=animepahe
+2025-09-23 18:28:01 |TRC| ws > Sending message type=extensions-reloaded
+2025-09-23 18:28:01 |DBG| extensions > Loaded built-in anime torrent provider extension id=nyaa
+2025-09-23 18:28:01 |DBG| extensions > Loaded built-in extension id=nyaa
+2025-09-23 18:28:01 |TRC| ws > Sending message type=extensions-reloaded
+2025-09-23 18:28:01 |DBG| extensions > Loaded built-in anime torrent provider extension id=nyaa-non-eng
+2025-09-23 18:28:01 |DBG| extensions > Loaded built-in extension id=nyaa-non-eng
+2025-09-23 18:28:01 |TRC| ws > Sending message type=extensions-reloaded
+2025-09-23 18:28:01 |DBG| extensions > Loaded built-in anime torrent provider extension id=nyaa-sukebei
+2025-09-23 18:28:01 |DBG| extensions > Loaded built-in extension id=nyaa-sukebei
+2025-09-23 18:28:01 |TRC| ws > Sending message type=extensions-reloaded
+2025-09-23 18:28:01 |DBG| extensions > Loaded built-in anime torrent provider extension id=animetosho
+2025-09-23 18:28:01 |DBG| extensions > Loaded built-in extension id=animetosho
+2025-09-23 18:28:01 |TRC| ws > Sending message type=extensions-reloaded
+2025-09-23 18:28:01 |DBG| extensions > Loaded built-in anime torrent provider extension id=seadex
+2025-09-23 18:28:01 |DBG| extensions > Loaded built-in extension id=seadex
+2025-09-23 18:28:01 |TRC| ws > Sending message type=extensions-reloaded
+2025-09-23 18:28:01 |TRC| extensions > Loading external extensions
+2025-09-23 18:28:01 |TRC| extensions > Interrupting Goja VMs
+2025-09-23 18:28:01 |DBG| extensions > Killed Goja VMs count=0
+2025-09-23 18:28:01 |TRC| extensions > Unloading external extensions
+2025-09-23 18:28:01 |DBG| extensions > Unloaded external extensions count=0
+2025-09-23 18:28:01 |DBG| extensions > Loaded external extensions
+2025-09-23 18:28:01 |TRC| ws > Sending message type=extensions-reloaded
+2025-09-23 18:28:01 |TRC| extensions > Checking for updates
+2025-09-23 18:28:01 |DBG| extensions > Retrieved update info haveUpdates=0
+2025-09-23 18:28:01 |DBG| torrentstream > Dropped all torrents
+2025-09-23 18:28:01 |INF| torrentstream > Module initialized
+2025-09-23 18:28:01 |INF| app > Serving embedded web interface
+2025-09-23 18:28:01 |INF| app > Web assets path: /home/stevica/.config/Seanime/assets
+2025-09-23 18:28:01 |INF| app > Manga downloads path: /home/stevica/.config/Seanime/manga
+2025-09-23 18:28:01 |INF| app > Offline assets path: /home/stevica/.config/Seanime/offline/assets
+2025-09-23 18:28:01 |INF| app > Server Address: 127.0.0.1:43211
+2025-09-23 18:28:01 |TRC| ws > Sending message type=check-for-announcements
+2025-09-23 18:28:01 |INF| app > Seanime started at http://127.0.0.1:43211
+2025-09-23 18:28:01 |DBG| animetosho > Loaded Sneedex Nyaa IDs count=1460
+2025-09-23 18:28:01 |INF| anilist > Successful Request rlr=29 rtt=500ms
+2025-09-23 18:28:01 |TRC| ws > Sending message type=refreshed-anilist-anime-collection
+2025-09-23 18:28:01 |TRC| ws > Sending message type=refreshed-anilist-manga-collection
+2025-09-23 18:28:01 |TRC| ws > Sending message type=server-ready
+2025-09-23 18:28:01 |DBG| anilist > Fetching manga collection
+2025-09-23 18:28:02 |INF| anilist > Successful Request rlr=28 rtt=243ms
+2025-09-23 18:28:09 |DBG| ws > Client connected id=ccd32b08-b3b0-4d1d-be4d-ecf69ae874f3
+2025-09-23 18:28:09 |TRC| method=GET status=200 uri=/api/v1/status latency_human=2.892266ms
+2025-09-23 18:28:09 |TRC| method=GET status=200 uri=/api/v1/extensions/list latency_human="364.292µs"
+2025-09-23 18:28:09 |TRC| method=GET status=200 uri=/api/v1/extensions/plugin-settings latency_human="521.504µs"
+2025-09-23 18:28:09 |TRC| method=GET status=200 uri=/api/v1/extensions/list/development latency_human="49.238µs"
+2025-09-23 18:28:09 |TRC| method=GET status=200 uri=/api/v1/extensions/updates latency_human="78.642µs"
+2025-09-23 18:28:09 |TRC| method=GET status=200 uri=/api/v1/continuity/history latency_human=1.084425ms
+2025-09-23 18:28:09 |TRC| method=POST status=200 uri=/api/v1/announcements latency_human="932.521µs"
+2025-09-23 18:28:09 |TRC| method=GET status=200 uri=/api/v1/library/collection latency_human=2.271517ms
+2025-09-23 18:28:09 |TRC| method=GET status=200 uri=/api/v1/anilist/collection latency_human="594.21µs"
+2025-09-23 18:28:09 |TRC| method=GET status=200 uri=/api/v1/library/missing-episodes latency_human="884.819µs"
+2025-09-23 18:28:09 |TRC| method=GET status=200 uri=/api/v1/auto-downloader/items latency_human="582.895µs"
+2025-09-23 18:28:09 |TRC| method=GET status=200 uri=/api/v1/manga/collection latency_human="386.432µs"
+2025-09-23 18:28:09 |TRC| method=GET status=200 uri=/api/v1/continuity/history latency_human="703.301µs"
+2025-09-23 18:28:09 |TRC| method=GET status=200 uri=/api/v1/latest-update latency_human=463.231821ms
+2025-09-23 18:28:09 |TRC| anilist > Successful Request rlr=27 rtt=399ms
+2025-09-23 18:28:09 |TRC| method=POST status=200 uri=/api/v1/anilist/list-anime latency_human=400.741988ms
+2025-09-23 18:28:28 |TRC| anilist > Successful Request rlr=26 rtt=362ms
+2025-09-23 18:28:28 |TRC| method=POST status=200 uri=/api/v1/anilist/list-anime latency_human=362.845775ms
+2025-09-23 18:28:29 |TRC| anilist > Successful Request rlr=25 rtt=375ms
+2025-09-23 18:28:29 |TRC| method=POST status=200 uri=/api/v1/anilist/list-anime latency_human=375.996953ms
+2025-09-23 18:28:33 |TRC| anilist platform > Fetching anime details
+2025-09-23 18:28:33 |DBG| anilist > Fetching anime details mediaId=2001
+2025-09-23 18:28:33 |TRC| method=GET status=200 uri=/api/v1/library/anime-entry/2001 latency_human=321.593411ms
+2025-09-23 18:28:33 |INF| anilist > Successful Request rlr=24 rtt=576ms
+2025-09-23 18:28:33 |TRC| method=GET status=200 uri=/api/v1/anilist/media-details/2001 latency_human=578.79542ms
+2025-09-23 18:28:33 |TRC| method=GET status=200 uri=/api/v1/continuity/history latency_human="740.597µs"
+2025-09-23 18:28:39 |TRC| anilist platform > Fetching anime with relations
+2025-09-23 18:28:39 |DBG| anilist > Fetching complete media mediaId=2001
+2025-09-23 18:28:39 |INF| anilist > Successful Request rlr=23 rtt=331ms
+2025-09-23 18:28:39 |TRC| method=GET status=200 uri=/api/v1/anime/episode-collection/2001 latency_human=341.587355ms
+2025-09-23 18:28:39 |TRC| method=GET status=200 uri=/api/v1/continuity/history latency_human="689.543µs"
+2025-09-23 18:28:46 |INF| torrentstream > Starting stream for episode 4 clientId=ccd32b08-b3b0-4d1d-be4d-ecf69ae874f3 mediaId=2001 playbackType=default
+2025-09-23 18:28:46 |TRC| anilist platform > Fetching anime with relations
+2025-09-23 18:28:46 |DBG| anilist > Fetching complete media mediaId=2001
+2025-09-23 18:28:46 |INF| anilist > Successful Request rlr=22 rtt=331ms
+2025-09-23 18:28:46 |DBG| torrentstream > Finding best torrent for Gurren Lagann, Episode 4
+2025-09-23 18:28:46 |DBG| torrent repo > Searching for anime torrents provider=animetosho query= type=smart
+2025-09-23 18:28:46 |DBG| animetosho > Searching batches by Anime ID aid=4575
+2025-09-23 18:28:46 |DBG| animetosho > Fetching torrents url=https://feed.animetosho.org/json?order=size-d&aid=4575&q=
+2025-09-23 18:28:46 |DBG| torrentstream > Found 54 torrents
+2025-09-23 18:28:46 |TRC| torrentstream > Getting torrent magnet
+2025-09-23 18:28:46 |DBG| torrentstream > Adding torrent https://animetosho.org/view/db-tengen-toppa-gurren-lagann-n-dual-audio.n1017135 from magnet
+2025-09-23 18:28:46 |TRC| torrentstream > Waiting to retrieve torrent info
+2025-09-23 18:28:48 |INF| torrentstream > Torrent added: �N��8�XHs��+�{`�;�z
+2025-09-23 18:28:48 |DBG| torrentstream > Analyzing torrent https://animetosho.org/view/db-tengen-toppa-gurren-lagann-n-dual-audio.n1017135
+2025-09-23 18:28:48 |DBG| matcher > Starting matching process
+2025-09-23 18:28:48 |DBG| hydrator > Starting metadata hydration
+2025-09-23 18:28:48 |DBG| torrentstream > Found corresponding file for episode 4: [DB]Gurren Lagann_-_04_(Dual Audio_10bit_BD1080p_x265).mkv
+2025-09-23 18:28:48 |DBG| torrentstream > Selecting file [DB]Gurren Lagann_-_04_(Dual Audio_10bit_BD1080p_x265).mkv
+2025-09-23 18:28:48 |DBG| torrentuil > Setting high priority for first 3% - pieces 225 to 227 (total 2)
+2025-09-23 18:28:48 |DBG| torrentuil > Setting priority for last pieces 298 to 298 (total 0)
+2025-09-23 18:28:48 |INF| torrentstream > Stream started
+2025-09-23 18:28:48 |DBG| torrentstream > Waiting for playable threshold to be reached
+2025-09-23 18:28:48 |TRC| method=POST status=200 uri=/api/v1/torrentstream/start latency_human=1.931277512s
+2025-09-23 18:28:49 |TRC| torrentstream > Progress: 0.02%, Download speed: 0 B/s, Upload speed: , Size: 291 MiB
+2025-09-23 18:28:51 |DBG| torrentstream > Waiting for playable threshold to be reached
+2025-09-23 18:28:52 |TRC| torrentstream > Progress: 0.72%, Download speed: 704 KiB/s, Upload speed: , Size: 291 MiB
+2025-09-23 18:28:54 |DBG| torrentstream > Starting the media player http://127.0.0.1:43211/api/v1/torrentstream/stream/%5BDB%5DGurren%20Lagann_-_04_%28Dual%20Audio_10bit_BD1080p_x265%29.mkv
+2025-09-23 18:28:54 |TRC| playback manager > Starting the media player
+2025-09-23 18:28:54 |DBG| torrentstream > Using cached episode collection
+2025-09-23 18:28:54 |DBG| media player > Stream requested streamUrl=http://127.0.0.1:43211/api/v1/torrentstream/stream/%5BDB%5DGurren%20Lagann_-_04_%28Dual%20Audio_10bit_BD1080p_x265%29.mkv
+2025-09-23 18:28:54 |DBG| continuity > Retrieving watch history item episode=4 isStream=true mediaId=2001 path=
+2025-09-23 18:28:54 |TRC| continuity > No watch history item found or episode number does not match item=null
+2025-09-23 18:28:54 |TRC| mpv > Launching player with args: []
+2025-09-23 18:28:54 |TRC| mpv > Cancelling previous command context
+2025-09-23 18:28:54 |DBG| mpv > Starting player
+2025-09-23 18:28:54 |TRC| mpv > Command: mpv --input-ipc-server=/tmp/mpv_socket http://127.0.0.1:43211/api/v1/torrentstream/stream/%5BDB%5DGurren%20Lagann_-_04_%28Dual%20Audio_10bit_BD1080p_x265%29.mkv
+2025-09-23 18:28:54 |TRC| torrentstream > Stream endpoint hit range=bytes=0-
+2025-09-23 18:28:54 |TRC| torrentstream > New reader
+2025-09-23 18:28:54 |DBG| torrentutil > Prioritizing range request pieces 225 to 235
+2025-09-23 18:28:54 |DBG| torrentutil > Setting next priority for pieces 235 to 298
+2025-09-23 18:28:54 |DBG| torrentutil > Setting read ahead priority for pieces 235 to 298
+2025-09-23 18:28:54 |TRC| torrentstream > Serving file content
+2025-09-23 18:28:55 |TRC| torrentstream > Progress: 1.59%, Download speed: 1.8 MiB/s, Upload speed: , Size: 291 MiB
+2025-09-23 18:28:55 |TRC| torrentstream > Stream endpoint hit range=bytes=305225444-
+2025-09-23 18:28:55 |TRC| torrentstream > New reader
+2025-09-23 18:28:55 |DBG| torrentutil > Prioritizing range request pieces 298 to 298
+2025-09-23 18:28:55 |TRC| torrentstream > Serving file content
+2025-09-23 18:28:55 |TRC| torrentstream > File content served
+2025-09-23 18:28:55 |TRC| torrentstream > Closing reader
+2025-09-23 18:28:55 |TRC| torrentstream > Stream endpoint hit range=bytes=1156654-
+2025-09-23 18:28:55 |TRC| torrentstream > New reader
+2025-09-23 18:28:55 |TRC| method=GET status=200 uri=/api/v1/torrentstream/stream/%5BDB%5DGurren%20Lagann_-_04_%28Dual%20Audio_10bit_BD1080p_x265%29.mkv latency_human=3.296647ms
+2025-09-23 18:28:55 |DBG| torrentutil > Prioritizing range request pieces 225 to 235
+2025-09-23 18:28:55 |DBG| torrentutil > Setting next priority for pieces 235 to 298
+2025-09-23 18:28:55 |DBG| torrentutil > Setting read ahead priority for pieces 235 to 298
+2025-09-23 18:28:55 |TRC| torrentstream > Serving file content
+2025-09-23 18:28:55 |TRC| mpv cmd > ● Video  --vid=1               (hevc 1920x1080 23.976 fps) [default]
+2025-09-23 18:28:55 |TRC| mpv cmd > ● Audio  --aid=1  --alang=jpn  (aac 2ch 48000 Hz) [default]
+2025-09-23 18:28:55 |TRC| mpv cmd > ○ Audio  --aid=2  --alang=eng  (aac 2ch 48000 Hz)
+2025-09-23 18:28:55 |TRC| mpv cmd > ● Subs   --sid=1  --slang=eng  'English Subtitles' (hdmv_pgs_subtitle) [default]
+2025-09-23 18:28:55 |TRC| mpv cmd > ○ Subs   --sid=2  --slang=eng  'Stylized English Dialouge' (ass)
+2025-09-23 18:28:55 |TRC| mpv cmd > ○ Subs   --sid=3  --slang=eng  'Stylized Signs and Songs' (ass)
+2025-09-23 18:28:55 |TRC| torrentstream > File content served
+2025-09-23 18:28:55 |TRC| torrentstream > Closing reader
+2025-09-23 18:28:55 |TRC| method=GET status=200 uri=/api/v1/torrentstream/stream/%5BDB%5DGurren%20Lagann_-_04_%28Dual%20Audio_10bit_BD1080p_x265%29.mkv latency_human=1.504800627s
+2025-09-23 18:28:55 |TRC| mpv cmd > AO: [pipewire] 48000Hz stereo 2ch floatp
+2025-09-23 18:28:56 |TRC| mpv cmd > VO: [gpu] 1920x1080 yuv420p10
+2025-09-23 18:28:56 |DBG| mpv > Player started
+2025-09-23 18:28:56 |DBG| mpv > Connection established
+2025-09-23 18:28:56 |TRC| playback manager > Sent stream to media player
+2025-09-23 18:28:56 |TRC| playback manager > Started tracking torrent stream
+2025-09-23 18:28:56 |DBG| mpv > Listening for events
+2025-09-23 18:28:58 |TRC| torrentstream > Progress: 5.13%, Download speed: 3.4 MiB/s, Upload speed: , Size: 291 MiB
+2025-09-23 18:28:59 |DBG| media player > Video loaded newFilename="[DB]Gurren Lagann_-_04_(Dual Audio_10bit_BD1080p_x265).mkv" previousFilename=
+2025-09-23 18:28:59 |DBG| playback manager > Tracking started for stream
+2025-09-23 18:28:59 |DBG| torrentstream > Media player started playing
+2025-09-23 18:28:59 |TRC| method=GET status=200 uri=/api/v1/library/anime-entry/2001 latency_human="736.825µs"
+2025-09-23 18:29:01 |DBG| torrentstream > Media player started playing the video, sending event
+2025-09-23 18:29:01 |TRC| torrentstream > Progress: 12.50%, Download speed: 7.8 MiB/s, Upload speed: , Size: 291 MiB
+2025-09-23 18:29:04 |TRC| torrentstream > Progress: 19.60%, Download speed: 6.9 MiB/s, Upload speed: , Size: 291 MiB
+2025-09-23 18:29:07 |TRC| torrentstream > Progress: 27.11%, Download speed: 7.3 MiB/s, Upload speed: , Size: 291 MiB
+2025-09-23 18:29:10 |TRC| torrentstream > Progress: 34.40%, Download speed: 7.1 MiB/s, Upload speed: , Size: 291 MiB
+2025-09-23 18:29:13 |TRC| torrentstream > Progress: 43.05%, Download speed: 8.4 MiB/s, Upload speed: , Size: 291 MiB
+2025-09-23 18:29:16 |TRC| torrentstream > Progress: 51.93%, Download speed: 8.6 MiB/s, Upload speed: , Size: 291 MiB
+2025-09-23 18:29:19 |TRC| torrentstream > Progress: 61.01%, Download speed: 8.8 MiB/s, Upload speed: , Size: 291 MiB
+2025-09-23 18:29:22 |TRC| torrentstream > Progress: 69.27%, Download speed: 8.0 MiB/s, Upload speed: , Size: 291 MiB
+2025-09-23 18:29:25 |TRC| torrentstream > Progress: 76.14%, Download speed: 6.7 MiB/s, Upload speed: , Size: 291 MiB
+2025-09-23 18:29:28 |TRC| torrentstream > Progress: 83.87%, Download speed: 7.5 MiB/s, Upload speed: , Size: 291 MiB
+2025-09-23 18:29:31 |TRC| torrentstream > Progress: 92.50%, Download speed: 8.4 MiB/s, Upload speed: , Size: 291 MiB
+2025-09-23 18:29:34 |TRC| torrentstream > Progress: 99.96%, Download speed: 7.2 MiB/s, Upload speed: , Size: 291 MiB
+2025-09-23 18:29:37 |TRC| torrentstream > Progress: 100.00%, Download speed: 37 KiB/s, Upload speed: , Size: 291 MiB
+2025-09-23 18:29:40 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:29:43 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:29:46 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:29:49 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:29:52 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:29:55 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:29:58 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:30:01 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:30:04 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:30:07 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:30:10 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:30:13 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:30:16 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:30:19 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:30:22 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:30:25 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:30:28 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:30:31 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:30:34 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:30:37 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:30:40 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:30:43 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:30:46 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:30:49 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:30:52 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:30:55 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:30:58 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:31:01 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:31:04 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:31:07 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:31:10 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:31:13 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:31:16 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:31:19 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:31:22 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:31:25 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:31:28 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:31:31 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:31:34 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:31:37 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:31:40 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:31:43 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:31:46 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:31:49 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:31:52 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:31:55 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:31:58 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:32:01 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:32:04 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:32:07 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:32:10 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:32:13 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:32:16 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:32:19 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:32:22 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:32:25 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:32:28 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:32:31 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:32:34 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:32:37 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:32:40 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:32:43 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:32:46 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:32:49 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:32:52 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:32:55 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:32:58 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:33:01 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:33:04 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:33:07 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:33:10 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:33:13 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:33:16 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:33:19 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:33:22 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:33:25 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:33:28 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:33:31 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:33:34 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:33:37 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:33:40 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:33:43 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:33:46 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:33:49 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:33:52 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:33:55 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:33:58 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:34:01 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:34:04 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:34:07 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:34:10 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:34:13 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:34:16 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:34:19 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:34:22 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:34:25 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:34:28 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:34:31 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:34:34 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:34:37 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:34:40 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:34:43 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:34:46 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:34:49 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:34:52 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:34:55 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:34:58 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:35:01 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:35:04 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:35:07 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:35:10 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:35:13 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:35:16 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:35:19 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:35:22 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:35:25 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:35:28 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:35:31 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:35:34 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:35:37 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:35:40 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:35:43 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:35:46 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:35:49 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:35:52 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:35:55 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:35:58 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:36:01 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:36:04 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:36:07 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:36:10 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:36:13 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:36:16 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:36:19 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:36:22 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:36:25 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:36:28 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:36:31 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:36:34 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:36:37 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:36:40 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:36:43 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:36:46 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:36:49 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:36:52 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:36:55 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:36:58 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:37:01 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:37:04 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:37:07 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:37:10 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:37:13 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:37:16 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:37:19 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:37:22 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:37:25 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:37:28 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:37:31 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:37:34 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:37:37 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:37:40 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:37:43 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:37:46 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:37:49 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:37:52 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:37:55 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:37:58 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:38:01 |DBG| anilist > Fetching anime collection
+2025-09-23 18:38:01 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:38:01 |TRC| ws > Sending message type=check-for-announcements
+2025-09-23 18:38:01 |TRC| method=POST status=200 uri=/api/v1/announcements latency_human=1.755949ms
+2025-09-23 18:38:01 |INF| anilist > Successful Request rlr=29 rtt=398ms
+2025-09-23 18:38:01 |TRC| ws > Sending message type=refreshed-anilist-anime-collection
+2025-09-23 18:38:01 |TRC| ws > Sending message type=refreshed-anilist-manga-collection
+2025-09-23 18:38:01 |TRC| method=GET status=200 uri=/api/v1/library/collection latency_human="166.152µs"
+2025-09-23 18:38:01 |TRC| method=GET status=200 uri=/api/v1/library/collection latency_human="142.965µs"
+2025-09-23 18:38:01 |TRC| method=GET status=200 uri=/api/v1/anilist/collection latency_human="155.746µs"
+2025-09-23 18:38:01 |TRC| method=GET status=200 uri=/api/v1/anilist/collection latency_human="173.765µs"
+2025-09-23 18:38:01 |TRC| method=GET status=200 uri=/api/v1/library/anime-entry/2001 latency_human="528.419µs"
+2025-09-23 18:38:01 |TRC| method=GET status=200 uri=/api/v1/library/anime-entry/2001 latency_human="398.654µs"
+2025-09-23 18:38:01 |TRC| method=GET status=200 uri=/api/v1/library/missing-episodes latency_human="217.974µs"
+2025-09-23 18:38:01 |TRC| method=GET status=200 uri=/api/v1/library/missing-episodes latency_human="29.054µs"
+2025-09-23 18:38:04 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:38:07 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:38:10 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:38:13 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:38:16 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:38:19 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:38:22 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:38:25 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:38:28 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:38:31 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:38:34 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:38:37 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:38:40 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:38:43 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:38:46 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:38:49 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:38:52 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:38:55 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:38:58 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:39:01 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:39:04 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:39:07 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:39:10 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:39:13 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:39:16 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:39:19 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:39:22 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:39:25 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:39:28 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:39:31 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:39:34 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:39:37 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:39:40 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:39:43 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:39:46 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:39:49 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:39:52 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:39:55 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:39:58 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:40:01 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:40:04 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:40:07 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:40:10 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:40:13 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:40:16 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:40:19 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:40:22 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:40:25 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:40:28 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:40:31 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:40:34 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:40:37 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:40:40 |TRC| torrentstream > File content served
+2025-09-23 18:40:40 |TRC| torrentstream > Closing reader
+2025-09-23 18:40:40 |TRC| method=GET status=200 uri=/api/v1/torrentstream/stream/%5BDB%5DGurren%20Lagann_-_04_%28Dual%20Audio_10bit_BD1080p_x265%29.mkv latency_human=11m45.031104816s
+2025-09-23 18:40:40 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:40:43 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:40:46 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:40:49 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:40:52 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:40:55 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:40:58 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:41:01 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:41:04 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:41:07 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:41:10 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:41:13 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:41:16 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:41:19 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:41:22 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:41:25 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:41:28 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:41:31 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:41:34 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:41:37 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:41:40 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:41:43 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:41:46 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:41:49 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:41:52 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:41:55 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:41:58 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:42:01 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:42:04 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:42:07 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:42:10 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:42:13 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:42:16 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:42:19 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:42:22 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:42:25 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:42:28 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:42:31 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:42:34 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:42:37 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:42:40 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:42:43 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:42:46 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:42:49 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:42:52 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:42:55 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:42:58 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:43:01 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:43:04 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:43:07 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:43:10 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:43:13 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:43:16 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:43:19 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:43:22 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:43:25 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:43:28 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:43:31 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:43:34 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:43:37 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:43:40 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:43:43 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:43:46 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:43:49 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:43:52 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:43:55 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:43:58 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:44:01 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:44:04 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:44:07 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:44:10 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:44:13 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:44:16 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:44:19 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:44:22 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:44:25 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:44:28 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:44:31 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:44:34 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:44:37 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:44:40 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:44:43 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:44:46 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:44:49 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:44:52 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:44:55 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:44:58 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:45:01 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:45:04 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:45:07 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:45:10 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:45:13 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:45:16 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:45:19 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:45:22 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:45:25 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:45:28 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:45:31 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:45:34 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:45:37 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:45:40 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:45:43 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:45:46 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:45:49 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:45:52 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:45:55 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:45:58 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:46:01 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:46:04 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:46:07 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:46:10 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:46:13 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:46:16 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:46:19 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:46:22 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:46:25 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:46:28 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:46:31 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:46:34 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:46:37 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:46:40 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:46:43 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:46:46 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:46:49 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:46:52 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:46:55 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:46:58 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:47:01 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:47:04 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:47:07 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:47:10 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:47:13 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:47:16 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:47:19 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:47:22 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:47:25 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:47:28 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:47:29 |DBG| media player > Video completed
+2025-09-23 18:47:29 |DBG| playback manager > Received video completed event
+2025-09-23 18:47:29 |DBG| playback manager > Updating progress on AniList
+2025-09-23 18:47:29 |TRC| anilist platform > Updating entry progress
+2025-09-23 18:47:29 |DBG| anilist > Updating media list entry progress mediaId=2001
+2025-09-23 18:47:30 |INF| anilist > Successful Request rlr=29 rtt=602ms
+2025-09-23 18:47:30 |DBG| anilist > Fetching anime collection
+2025-09-23 18:47:30 |INF| anilist > Successful Request rlr=28 rtt=329ms
+2025-09-23 18:47:30 |TRC| ws > Sending message type=refreshed-anilist-anime-collection
+2025-09-23 18:47:30 |TRC| ws > Sending message type=refreshed-anilist-manga-collection
+2025-09-23 18:47:30 |INF| playback manager > Updated progress on AniList
+2025-09-23 18:47:30 |TRC| method=GET status=200 uri=/api/v1/library/collection latency_human="230.197µs"
+2025-09-23 18:47:30 |TRC| method=GET status=200 uri=/api/v1/library/collection latency_human="210.92µs"
+2025-09-23 18:47:30 |TRC| method=GET status=200 uri=/api/v1/library/anime-entry/2001 latency_human="658.323µs"
+2025-09-23 18:47:30 |TRC| method=GET status=200 uri=/api/v1/anilist/collection latency_human="320.083µs"
+2025-09-23 18:47:30 |TRC| method=GET status=200 uri=/api/v1/anilist/collection latency_human=2.574139ms
+2025-09-23 18:47:30 |TRC| method=GET status=200 uri=/api/v1/library/anime-entry/2001 latency_human="358.425µs"
+2025-09-23 18:47:30 |TRC| method=GET status=200 uri=/api/v1/library/missing-episodes latency_human="442.724µs"
+2025-09-23 18:47:31 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:47:34 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:47:37 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:47:40 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:47:43 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:47:46 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:47:49 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:47:52 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:47:55 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:47:58 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:48:01 |DBG| anilist > Fetching anime collection
+2025-09-23 18:48:01 |TRC| ws > Sending message type=check-for-announcements
+2025-09-23 18:48:01 |TRC| method=POST status=200 uri=/api/v1/announcements latency_human=1.943962ms
+2025-09-23 18:48:01 |INF| anilist > Successful Request rlr=27 rtt=372ms
+2025-09-23 18:48:01 |TRC| ws > Sending message type=refreshed-anilist-anime-collection
+2025-09-23 18:48:01 |TRC| ws > Sending message type=refreshed-anilist-manga-collection
+2025-09-23 18:48:01 |TRC| method=GET status=200 uri=/api/v1/library/collection latency_human="155.187µs"
+2025-09-23 18:48:01 |TRC| method=GET status=200 uri=/api/v1/library/collection latency_human="106.857µs"
+2025-09-23 18:48:01 |TRC| method=GET status=200 uri=/api/v1/anilist/collection latency_human="133.397µs"
+2025-09-23 18:48:01 |TRC| method=GET status=200 uri=/api/v1/anilist/collection latency_human="128.158µs"
+2025-09-23 18:48:01 |TRC| method=GET status=200 uri=/api/v1/library/anime-entry/2001 latency_human="356.26µs"
+2025-09-23 18:48:01 |TRC| method=GET status=200 uri=/api/v1/library/missing-episodes latency_human="457.041µs"
+2025-09-23 18:48:01 |TRC| method=GET status=200 uri=/api/v1/library/anime-entry/2001 latency_human=1.004527ms
+2025-09-23 18:48:01 |TRC| method=GET status=200 uri=/api/v1/library/missing-episodes latency_human="37.505µs"
+2025-09-23 18:48:01 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:48:04 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:48:07 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:48:10 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:48:13 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:48:16 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:48:19 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:48:22 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:48:25 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:48:28 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:48:31 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:48:34 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:48:37 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:48:40 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:48:43 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:48:46 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:48:49 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:48:52 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:48:55 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:48:58 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:49:01 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:49:04 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:49:07 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:49:10 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:49:13 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:49:16 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:49:19 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:49:22 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:49:25 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:49:28 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:49:31 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:49:34 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:49:37 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:49:40 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:49:43 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:49:46 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:49:49 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:49:52 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:49:55 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:49:58 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:50:01 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:50:04 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:50:07 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:50:10 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:50:13 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:50:16 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:50:20 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:50:23 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:50:26 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:50:29 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:50:32 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:50:35 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:50:35 |DBG| mpv > Connection has been closed
+2025-09-23 18:50:35 |DBG| mpv > Closing socket connection
+2025-09-23 18:50:35 |TRC| mpv > Terminating
+2025-09-23 18:50:35 |TRC| mpv > Resetting playback status
+2025-09-23 18:50:35 |TRC| mpv > Terminated
+2025-09-23 18:50:35 |DBG| mpv > Instance closed
+2025-09-23 18:50:35 |TRC| mpv cmd > Exiting... (Quit)
+2025-09-23 18:50:35 |DBG| mpv > Context cancelled
+2025-09-23 18:50:35 |WRN| mpv > Player has exited error="signal: killed"
+2025-09-23 18:50:35 |ERR| media player > Failed to get player status, retrying (1/5)
+2025-09-23 18:50:38 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 291 MiB
+2025-09-23 18:50:38 |ERR| media player > Failed to get player status, retrying (2/5)
+2025-09-23 18:50:38 |DBG| media player > Sending player closed event
+2025-09-23 18:50:38 |DBG| media player > Connection lost
+2025-09-23 18:50:38 |DBG| torrentstream > Media player stopped event received
+2025-09-23 18:50:38 |INF| torrentstream > Stopping stream
+2025-09-23 18:50:38 |DBG| torrentstream > Handling media player stopped event
+2025-09-23 18:50:38 |DBG| torrentstream > Resetting current torrent and status
+2025-09-23 18:50:38 |DBG| media player > Stop request received
+2025-09-23 18:50:38 |INF| torrentstream > Stream stopped
+2025-09-23 18:50:38 |DBG| mpv > Received close request
+2025-09-23 18:50:38 |TRC| mpv > Terminating
+2025-09-23 18:50:38 |TRC| mpv > Resetting playback status
+2025-09-23 18:50:38 |TRC| mpv > Terminated
+2025-09-23 18:50:38 |DBG| nativeplayer > Stopping playback, notifying subscribers
+2025-09-23 18:50:38 |DBG| torrentstream > Native player terminated event received
+2025-09-23 18:50:38 |DBG| playback manager > Received tracking stopped event
+2025-09-23 18:50:38 |DBG| playback manager > Received tracking stopped event
+2025-09-23 18:50:38 |TRC| method=GET status=200 uri=/api/v1/continuity/history latency_human="642.26µs"
+2025-09-23 18:50:38 |TRC| method=GET status=200 uri=/api/v1/continuity/history latency_human="298.082µs"
+2025-09-23 18:50:39 |INF| torrentstream > Starting stream for episode 5 clientId=ccd32b08-b3b0-4d1d-be4d-ecf69ae874f3 mediaId=2001 playbackType=default
+2025-09-23 18:50:39 |TRC| anilist platform > Fetching anime with relations
+2025-09-23 18:50:39 |DBG| anilist > Fetching complete media mediaId=2001
+2025-09-23 18:50:39 |INF| anilist > Successful Request rlr=29 rtt=408ms
+2025-09-23 18:50:39 |DBG| torrentstream > Finding best torrent for Gurren Lagann, Episode 5
+2025-09-23 18:50:39 |DBG| torrent repo > Searching for anime torrents provider=animetosho query= type=smart
+2025-09-23 18:50:39 |DBG| animetosho > Searching batches by Anime ID aid=4575
+2025-09-23 18:50:39 |DBG| animetosho > Fetching torrents url=https://feed.animetosho.org/json?order=size-d&aid=4575&q=
+2025-09-23 18:50:40 |DBG| torrentstream > Found 54 torrents
+2025-09-23 18:50:40 |TRC| torrentstream > Getting torrent magnet
+2025-09-23 18:50:40 |DBG| torrentstream > Adding torrent https://animetosho.org/view/db-tengen-toppa-gurren-lagann-n-dual-audio.n1017135 from magnet
+2025-09-23 18:50:40 |TRC| torrentstream > Waiting to retrieve torrent info
+2025-09-23 18:50:40 |INF| torrentstream > Torrent added: �N��8�XHs��+�{`�;�z
+2025-09-23 18:50:40 |DBG| torrentstream > Analyzing torrent https://animetosho.org/view/db-tengen-toppa-gurren-lagann-n-dual-audio.n1017135
+2025-09-23 18:50:40 |DBG| matcher > Starting matching process
+2025-09-23 18:50:40 |DBG| hydrator > Starting metadata hydration
+2025-09-23 18:50:40 |DBG| torrentstream > Found corresponding file for episode 5: [DB]Gurren Lagann_-_05.5_(10bit_BD1080p_x265).mkv
+2025-09-23 18:50:40 |DBG| torrentstream > Selecting file [DB]Gurren Lagann_-_05.5_(10bit_BD1080p_x265).mkv
+2025-09-23 18:50:40 |DBG| torrentuil > Setting high priority for first 3% - pieces 298 to 299 (total 1)
+2025-09-23 18:50:40 |DBG| torrentuil > Setting priority for last pieces 335 to 335 (total 0)
+2025-09-23 18:50:40 |INF| torrentstream > Stream started
+2025-09-23 18:50:40 |TRC| method=POST status=200 uri=/api/v1/torrentstream/start latency_human=1.462353947s
+2025-09-23 18:50:40 |DBG| torrentstream > Starting the media player http://127.0.0.1:43211/api/v1/torrentstream/stream/%5BDB%5DGurren%20Lagann_-_05.5_%2810bit_BD1080p_x265%29.mkv
+2025-09-23 18:50:40 |TRC| playback manager > Starting the media player
+2025-09-23 18:50:40 |DBG| torrentstream > Using cached episode collection
+2025-09-23 18:50:40 |DBG| media player > Stream requested streamUrl=http://127.0.0.1:43211/api/v1/torrentstream/stream/%5BDB%5DGurren%20Lagann_-_05.5_%2810bit_BD1080p_x265%29.mkv
+2025-09-23 18:50:40 |DBG| continuity > Retrieving watch history item episode=5 isStream=true mediaId=2001 path=
+2025-09-23 18:50:40 |TRC| continuity > No watch history item found or episode number does not match item=null
+2025-09-23 18:50:40 |TRC| mpv > Launching player with args: []
+2025-09-23 18:50:40 |TRC| mpv > Cancelling previous context
+2025-09-23 18:50:40 |TRC| mpv > Cancelling previous command context
+2025-09-23 18:50:40 |DBG| mpv > Starting player
+2025-09-23 18:50:40 |TRC| mpv > Command: mpv --input-ipc-server=/tmp/mpv_socket http://127.0.0.1:43211/api/v1/torrentstream/stream/%5BDB%5DGurren%20Lagann_-_05.5_%2810bit_BD1080p_x265%29.mkv
+2025-09-23 18:50:40 |TRC| torrentstream > Stream endpoint hit range=bytes=0-
+2025-09-23 18:50:40 |TRC| torrentstream > New reader
+2025-09-23 18:50:40 |DBG| torrentutil > Prioritizing range request pieces 298 to 308
+2025-09-23 18:50:40 |DBG| torrentutil > Setting next priority for pieces 308 to 335
+2025-09-23 18:50:40 |DBG| torrentutil > Setting read ahead priority for pieces 308 to 335
+2025-09-23 18:50:40 |TRC| torrentstream > Serving file content
+2025-09-23 18:50:40 |TRC| torrentstream > Stream endpoint hit range=bytes=154812327-
+2025-09-23 18:50:40 |TRC| torrentstream > New reader
+2025-09-23 18:50:40 |DBG| torrentutil > Prioritizing range request pieces 335 to 335
+2025-09-23 18:50:40 |TRC| torrentstream > Serving file content
+2025-09-23 18:50:41 |TRC| torrentstream > Progress: 1.36%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:50:44 |TRC| torrentstream > Progress: 8.23%, Download speed: 3.4 MiB/s, Upload speed: , Size: 148 MiB
+2025-09-23 18:50:47 |TRC| torrentstream > Progress: 21.00%, Download speed: 6.3 MiB/s, Upload speed: , Size: 148 MiB
+2025-09-23 18:50:48 |TRC| torrentstream > File content served
+2025-09-23 18:50:48 |TRC| torrentstream > Closing reader
+2025-09-23 18:50:48 |TRC| torrentstream > Stream endpoint hit range=bytes=8877-
+2025-09-23 18:50:48 |TRC| torrentstream > New reader
+2025-09-23 18:50:48 |TRC| method=GET status=200 uri=/api/v1/torrentstream/stream/%5BDB%5DGurren%20Lagann_-_05.5_%2810bit_BD1080p_x265%29.mkv latency_human=7.26400237s
+2025-09-23 18:50:48 |DBG| torrentutil > Prioritizing range request pieces 298 to 308
+2025-09-23 18:50:48 |DBG| torrentutil > Setting next priority for pieces 308 to 335
+2025-09-23 18:50:48 |DBG| torrentutil > Setting read ahead priority for pieces 308 to 335
+2025-09-23 18:50:48 |TRC| torrentstream > Serving file content
+2025-09-23 18:50:48 |TRC| mpv cmd > ● Video  --vid=1               (hevc 1920x1080 23.976 fps) [default]
+2025-09-23 18:50:48 |TRC| mpv cmd > ● Audio  --aid=1  --alang=jpn  (aac 2ch 48000 Hz) [default]
+2025-09-23 18:50:48 |TRC| mpv cmd > ● Subs   --sid=1  --slang=eng  (ass) [default]
+2025-09-23 18:50:48 |TRC| mpv cmd > AO: [pipewire] 48000Hz stereo 2ch floatp
+2025-09-23 18:50:48 |TRC| mpv cmd > VO: [gpu] 1920x1080 yuv420p10
+2025-09-23 18:50:48 |TRC| torrentstream > File content served
+2025-09-23 18:50:48 |TRC| torrentstream > Closing reader
+2025-09-23 18:50:48 |TRC| method=GET status=200 uri=/api/v1/torrentstream/stream/%5BDB%5DGurren%20Lagann_-_05.5_%2810bit_BD1080p_x265%29.mkv latency_human=7.739228951s
+2025-09-23 18:50:49 |DBG| mpv > Player started
+2025-09-23 18:50:49 |DBG| mpv > Connection established
+2025-09-23 18:50:49 |TRC| playback manager > Sent stream to media player
+2025-09-23 18:50:49 |TRC| playback manager > Started tracking torrent stream
+2025-09-23 18:50:49 |DBG| mpv > Listening for events
+2025-09-23 18:50:50 |TRC| torrentstream > Progress: 34.42%, Download speed: 7.4 MiB/s, Upload speed: , Size: 148 MiB
+2025-09-23 18:50:52 |DBG| media player > Video loaded newFilename="[DB]Gurren Lagann_-_05.5_(10bit_BD1080p_x265).mkv" previousFilename=
+2025-09-23 18:50:52 |DBG| playback manager > Tracking started for stream
+2025-09-23 18:50:52 |DBG| torrentstream > Media player started playing
+2025-09-23 18:50:52 |TRC| method=GET status=200 uri=/api/v1/library/anime-entry/2001 latency_human="463.047µs"
+2025-09-23 18:50:53 |DBG| torrentstream > Media player started playing the video, sending event
+2025-09-23 18:50:53 |TRC| torrentstream > Progress: 46.08%, Download speed: 5.7 MiB/s, Upload speed: , Size: 148 MiB
+2025-09-23 18:50:54 |TRC| mpv cmd > [sub/ass] fontselect: Using default font family: (Jesaya Free, 700, 0) -> /usr/share/fonts/gsfonts/NimbusSans-Bold.otf, 0, NimbusSans-Bold
+2025-09-23 18:50:56 |TRC| torrentstream > Progress: 56.61%, Download speed: 5.2 MiB/s, Upload speed: , Size: 148 MiB
+2025-09-23 18:50:58 |TRC| mpv cmd > Track switched:
+2025-09-23 18:50:58 |TRC| mpv cmd > ● Video  --vid=1               (hevc [Main 10] 1920x1080 23.976 fps) [default]
+2025-09-23 18:50:58 |TRC| mpv cmd > ● Audio  --aid=1  --alang=jpn  (aac [LC] 2ch 48000 Hz) [default]
+2025-09-23 18:50:58 |TRC| mpv cmd > ○ Subs   --sid=1  --slang=eng  (ass) [default]
+2025-09-23 18:50:58 |TRC| mpv cmd > Track switched:
+2025-09-23 18:50:58 |TRC| mpv cmd > ● Video  --vid=1               (hevc [Main 10] 1920x1080 23.976 fps) [default]
+2025-09-23 18:50:58 |TRC| mpv cmd > ● Audio  --aid=1  --alang=jpn  (aac [LC] 2ch 48000 Hz) [default]
+2025-09-23 18:50:58 |TRC| mpv cmd > ● Subs   --sid=1  --slang=eng  (ass) [default]
+2025-09-23 18:50:58 |TRC| torrentstream > Stream endpoint hit range=bytes=28749367-
+2025-09-23 18:50:58 |TRC| torrentstream > New reader
+2025-09-23 18:50:58 |DBG| torrentutil > Prioritizing range request pieces 305 to 315
+2025-09-23 18:50:58 |DBG| torrentutil > Setting next priority for pieces 315 to 335
+2025-09-23 18:50:58 |DBG| torrentutil > Setting read ahead priority for pieces 315 to 335
+2025-09-23 18:50:58 |TRC| torrentstream > Serving file content
+2025-09-23 18:50:59 |TRC| torrentstream > Progress: 67.23%, Download speed: 5.2 MiB/s, Upload speed: , Size: 148 MiB
+2025-09-23 18:50:59 |TRC| torrentstream > File content served
+2025-09-23 18:50:59 |TRC| torrentstream > Closing reader
+2025-09-23 18:50:59 |TRC| method=GET status=200 uri=/api/v1/torrentstream/stream/%5BDB%5DGurren%20Lagann_-_05.5_%2810bit_BD1080p_x265%29.mkv latency_human=10.792604484s
+2025-09-23 18:50:59 |TRC| mpv cmd > Track switched:
+2025-09-23 18:50:59 |TRC| mpv cmd > ● Video  --vid=1               (hevc [Main 10] 1920x1080 23.976 fps) [default]
+2025-09-23 18:50:59 |TRC| mpv cmd > ● Audio  --aid=1  --alang=jpn  (aac [LC] 2ch 48000 Hz) [default]
+2025-09-23 18:50:59 |TRC| mpv cmd > ○ Subs   --sid=1  --slang=eng  (ass) [default]
+2025-09-23 18:50:59 |TRC| mpv cmd > Track switched:
+2025-09-23 18:50:59 |TRC| mpv cmd > ● Video  --vid=1               (hevc [Main 10] 1920x1080 23.976 fps) [default]
+2025-09-23 18:50:59 |TRC| mpv cmd > ● Audio  --aid=1  --alang=jpn  (aac [LC] 2ch 48000 Hz) [default]
+2025-09-23 18:50:59 |TRC| mpv cmd > ● Subs   --sid=1  --slang=eng  (ass) [default]
+2025-09-23 18:50:59 |TRC| torrentstream > Stream endpoint hit range=bytes=28749367-
+2025-09-23 18:50:59 |TRC| torrentstream > New reader
+2025-09-23 18:50:59 |DBG| torrentutil > Prioritizing range request pieces 305 to 315
+2025-09-23 18:50:59 |DBG| torrentutil > Setting next priority for pieces 315 to 335
+2025-09-23 18:50:59 |DBG| torrentutil > Setting read ahead priority for pieces 315 to 335
+2025-09-23 18:50:59 |TRC| torrentstream > Serving file content
+2025-09-23 18:50:59 |TRC| torrentstream > File content served
+2025-09-23 18:50:59 |TRC| torrentstream > Closing reader
+2025-09-23 18:50:59 |TRC| method=GET status=200 uri=/api/v1/torrentstream/stream/%5BDB%5DGurren%20Lagann_-_05.5_%2810bit_BD1080p_x265%29.mkv latency_human=908.113299ms
+2025-09-23 18:51:02 |TRC| torrentstream > Progress: 77.34%, Download speed: 5.0 MiB/s, Upload speed: , Size: 148 MiB
+2025-09-23 18:51:05 |TRC| torrentstream > Progress: 88.07%, Download speed: 5.3 MiB/s, Upload speed: , Size: 148 MiB
+2025-09-23 18:51:08 |TRC| torrentstream > Progress: 99.88%, Download speed: 5.8 MiB/s, Upload speed: , Size: 148 MiB
+2025-09-23 18:51:08 |TRC| torrentstream > File content served
+2025-09-23 18:51:08 |TRC| torrentstream > Closing reader
+2025-09-23 18:51:08 |TRC| method=GET status=200 uri=/api/v1/torrentstream/stream/%5BDB%5DGurren%20Lagann_-_05.5_%2810bit_BD1080p_x265%29.mkv latency_human=8.377160236s
+2025-09-23 18:51:11 |TRC| torrentstream > Progress: 100.00%, Download speed: 64 KiB/s, Upload speed: , Size: 148 MiB
+2025-09-23 18:51:14 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:51:17 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:51:17 |TRC| mpv cmd > [sub/ass] fontselect: Using default font family: (Jesaya Free, 700, 0) -> /usr/share/fonts/gsfonts/NimbusSans-Bold.otf, 0, NimbusSans-Bold
+2025-09-23 18:51:20 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:51:23 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:51:26 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:51:29 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:51:32 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:51:35 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:51:38 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:51:38 |TRC| mpv cmd > [sub/ass] fontselect: Using default font family: (Chlorinez, 400, 0) -> /usr/share/fonts/gsfonts/NimbusSans-Regular.otf, 0, NimbusSans-Regular
+2025-09-23 18:51:41 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:51:44 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:51:47 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:51:50 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:51:53 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:51:56 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:51:59 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:52:02 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:52:05 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:52:08 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:52:11 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:52:14 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:52:17 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:52:20 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:52:23 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:52:26 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:52:29 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:52:32 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:52:35 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:52:38 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:52:41 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:52:44 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:52:47 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:52:50 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:52:53 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:52:56 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:52:59 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:53:02 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:53:05 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:53:08 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:53:11 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:53:14 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:53:17 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:53:20 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:53:23 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:53:26 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:53:29 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:53:32 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:53:35 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:53:38 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:53:41 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:53:44 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:53:47 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:53:50 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:53:53 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:53:56 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:53:59 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:54:02 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:54:05 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:54:08 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:54:11 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:54:14 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:54:17 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:54:20 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:54:23 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:54:26 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:54:29 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:54:32 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:54:35 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:54:38 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:54:41 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:54:44 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:54:47 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:54:50 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:54:53 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:54:56 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:54:59 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:55:02 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:55:05 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:55:08 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:55:11 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:55:14 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:55:17 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:55:20 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:55:23 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:55:26 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:55:29 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:55:32 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:55:35 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:55:38 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:55:41 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:55:44 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:55:47 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:55:50 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:55:53 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:55:56 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:55:59 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:56:02 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:56:05 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:56:08 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:56:11 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:56:14 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:56:17 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:56:20 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:56:23 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:56:26 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:56:29 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:56:32 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:56:35 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:56:38 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:56:41 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:56:44 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:56:47 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:56:50 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:56:53 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:56:56 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:56:59 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:57:02 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:57:05 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:57:08 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:57:11 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:57:14 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:57:17 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:57:20 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:57:23 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:57:26 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:57:29 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:57:32 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:57:35 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:57:38 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:57:41 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:57:44 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:57:47 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:57:50 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:57:53 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:57:56 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:57:59 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:58:01 |DBG| anilist > Fetching anime collection
+2025-09-23 18:58:01 |TRC| ws > Sending message type=check-for-announcements
+2025-09-23 18:58:01 |TRC| method=POST status=200 uri=/api/v1/announcements latency_human="865.613µs"
+2025-09-23 18:58:01 |INF| anilist > Successful Request rlr=29 rtt=413ms
+2025-09-23 18:58:01 |TRC| ws > Sending message type=refreshed-anilist-anime-collection
+2025-09-23 18:58:01 |TRC| ws > Sending message type=refreshed-anilist-manga-collection
+2025-09-23 18:58:01 |TRC| method=GET status=200 uri=/api/v1/library/collection latency_human="216.508µs"
+2025-09-23 18:58:01 |TRC| method=GET status=200 uri=/api/v1/library/collection latency_human="216.159µs"
+2025-09-23 18:58:01 |TRC| method=GET status=200 uri=/api/v1/anilist/collection latency_human="271.194µs"
+2025-09-23 18:58:01 |TRC| method=GET status=200 uri=/api/v1/anilist/collection latency_human="153.511µs"
+2025-09-23 18:58:01 |TRC| method=GET status=200 uri=/api/v1/library/anime-entry/2001 latency_human="394.254µs"
+2025-09-23 18:58:01 |TRC| method=GET status=200 uri=/api/v1/library/anime-entry/2001 latency_human="418.839µs"
+2025-09-23 18:58:01 |TRC| method=GET status=200 uri=/api/v1/library/missing-episodes latency_human="210.781µs"
+2025-09-23 18:58:01 |TRC| method=GET status=200 uri=/api/v1/library/missing-episodes latency_human="24.025µs"
+2025-09-23 18:58:02 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:58:05 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:58:08 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:58:11 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:58:14 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:58:17 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:58:20 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:58:23 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:58:26 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:58:29 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:58:32 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:58:35 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:58:38 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:58:41 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:58:44 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:58:47 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:58:50 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:58:53 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:58:56 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:58:59 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:59:02 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:59:05 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:59:08 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:59:11 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:59:14 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:59:17 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:59:20 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:59:23 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:59:26 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:59:29 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:59:32 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:59:35 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:59:38 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:59:41 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:59:44 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:59:47 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:59:50 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:59:53 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:59:56 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 18:59:59 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:00:02 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:00:05 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:00:08 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:00:11 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:00:14 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:00:17 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:00:20 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:00:23 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:00:26 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:00:29 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:00:32 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:00:35 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:00:38 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:00:41 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:00:44 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:00:47 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:00:50 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:00:53 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:00:56 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:00:59 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:01:02 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:01:05 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:01:08 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:01:11 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:01:14 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:01:17 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:01:20 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:01:23 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:01:26 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:01:29 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:01:32 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:01:35 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:01:38 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:01:41 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:01:44 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:01:47 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:01:50 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:01:53 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:01:56 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:01:59 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:02:02 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:02:05 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:02:08 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:02:11 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:02:14 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:02:17 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:02:20 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:02:23 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:02:26 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:02:29 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:02:32 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:02:35 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:02:38 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:02:41 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:02:44 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:02:47 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:02:50 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:02:53 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:02:56 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:02:59 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:03:02 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:03:05 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:03:08 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:03:11 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:03:14 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:03:17 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:03:20 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:03:23 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:03:26 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:03:29 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:03:32 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:03:35 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:03:38 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:03:41 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:03:44 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:03:47 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:03:50 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:03:53 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:03:56 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:03:59 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:04:02 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:04:05 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:04:08 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:04:11 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:04:14 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:04:17 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:04:20 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:04:23 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:04:26 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:04:29 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:04:32 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:04:35 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:04:38 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:04:41 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:04:44 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:04:47 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:04:50 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:04:53 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:04:56 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:04:59 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:05:02 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:05:05 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:05:08 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:05:11 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:05:14 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:05:17 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:05:20 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:05:23 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:05:26 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:05:29 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:05:32 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:05:35 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:05:38 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:05:41 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:05:44 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:05:47 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:05:50 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:05:53 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:05:56 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:05:59 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:06:02 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:06:05 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:06:08 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:06:11 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:06:14 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:06:17 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:06:20 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:06:23 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:06:26 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:06:29 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:06:32 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:06:35 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:06:38 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:06:41 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:06:44 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:06:47 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:06:50 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:06:53 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:06:56 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:06:59 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:07:02 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:07:05 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:07:08 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:07:11 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:07:14 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:07:17 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:07:20 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:07:23 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:07:26 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:07:29 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:07:32 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:07:35 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:07:38 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:07:41 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:07:44 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:07:47 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:07:50 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:07:53 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:07:56 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:07:59 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:08:01 |DBG| anilist > Fetching anime collection
+2025-09-23 19:08:01 |TRC| ws > Sending message type=check-for-announcements
+2025-09-23 19:08:01 |TRC| method=POST status=200 uri=/api/v1/announcements latency_human="527.568µs"
+2025-09-23 19:08:01 |INF| anilist > Successful Request rlr=29 rtt=446ms
+2025-09-23 19:08:01 |TRC| ws > Sending message type=refreshed-anilist-anime-collection
+2025-09-23 19:08:01 |TRC| ws > Sending message type=refreshed-anilist-manga-collection
+2025-09-23 19:08:01 |TRC| method=GET status=200 uri=/api/v1/library/collection latency_human="226.31µs"
+2025-09-23 19:08:01 |TRC| method=GET status=200 uri=/api/v1/library/collection latency_human="120.699µs"
+2025-09-23 19:08:01 |TRC| method=GET status=200 uri=/api/v1/anilist/collection latency_human="186.496µs"
+2025-09-23 19:08:01 |TRC| method=GET status=200 uri=/api/v1/anilist/collection latency_human="132.084µs"
+2025-09-23 19:08:01 |TRC| method=GET status=200 uri=/api/v1/library/anime-entry/2001 latency_human="383.749µs"
+2025-09-23 19:08:01 |TRC| method=GET status=200 uri=/api/v1/library/anime-entry/2001 latency_human="309.71µs"
+2025-09-23 19:08:01 |TRC| method=GET status=200 uri=/api/v1/library/missing-episodes latency_human="156.95µs"
+2025-09-23 19:08:01 |TRC| method=GET status=200 uri=/api/v1/library/missing-episodes latency_human="25.984µs"
+2025-09-23 19:08:02 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:08:05 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:08:08 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:08:11 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:08:14 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:08:17 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:08:20 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:08:23 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:08:26 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:08:29 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:08:32 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:08:35 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:08:38 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:08:41 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:08:44 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:08:47 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:08:50 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:08:53 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:08:56 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:08:59 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:09:02 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:09:05 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:09:08 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:09:11 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:09:14 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:09:17 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:09:20 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:09:23 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:09:26 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:09:29 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:09:32 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:09:35 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:09:38 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:09:41 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:09:44 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:09:47 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:09:50 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:09:53 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:09:56 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:09:59 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:10:02 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:10:05 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:10:08 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:10:11 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:10:14 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:10:17 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:10:20 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:10:23 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:10:26 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:10:29 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:10:32 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:10:35 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:10:38 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:10:41 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:10:44 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:10:47 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:10:50 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:10:53 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:10:56 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:10:59 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:11:02 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:11:05 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:11:08 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:11:11 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:11:14 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:11:17 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:11:20 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:11:23 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:11:26 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:11:29 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:11:32 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:11:35 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:11:38 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:11:41 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:11:44 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:11:47 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:11:50 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:11:53 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:11:56 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:11:59 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:12:02 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:12:05 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:12:08 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:12:11 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:12:14 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:12:17 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:12:20 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:12:23 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:12:26 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:12:29 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:12:32 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:12:35 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:12:38 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:12:41 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:12:44 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:12:47 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:12:50 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:12:53 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:12:56 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:12:59 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:13:02 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:13:05 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:13:08 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:13:11 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:13:14 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:13:17 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:13:20 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:13:23 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:13:26 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:13:29 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:13:32 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:13:35 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:13:38 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:13:41 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:13:44 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:13:47 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:13:50 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:13:53 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:13:56 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:13:59 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:14:02 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:14:05 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:14:08 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:14:11 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:14:14 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:14:17 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:14:20 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:14:23 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:14:26 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:14:29 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:14:32 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:14:35 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:14:38 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:14:41 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:14:44 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:14:47 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:14:50 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:14:53 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:14:56 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:14:59 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:15:02 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:15:05 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:15:08 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:15:11 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:15:14 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:15:17 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:15:20 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:15:23 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:15:26 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:15:29 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:15:32 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:15:35 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:15:38 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:15:41 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:15:44 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:15:47 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:15:50 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:15:53 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:15:56 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:15:59 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:16:02 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:16:05 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:16:08 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:16:11 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:16:14 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:16:17 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:16:20 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:16:23 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:16:26 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:16:29 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:16:32 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:16:35 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:16:38 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:16:41 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:16:44 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:16:47 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:16:50 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:16:53 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:16:56 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:16:59 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:17:02 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:17:05 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:17:08 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:17:11 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:17:14 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:17:17 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:17:20 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:17:23 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:17:26 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:17:29 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:17:32 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:17:35 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:17:38 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:17:41 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:17:44 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:17:47 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:17:50 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:17:53 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:17:56 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:17:59 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:18:01 |DBG| anilist > Fetching anime collection
+2025-09-23 19:18:01 |TRC| ws > Sending message type=check-for-announcements
+2025-09-23 19:18:01 |TRC| method=POST status=200 uri=/api/v1/announcements latency_human="803.716µs"
+2025-09-23 19:18:01 |INF| anilist > Successful Request rlr=29 rtt=394ms
+2025-09-23 19:18:01 |TRC| ws > Sending message type=refreshed-anilist-anime-collection
+2025-09-23 19:18:01 |TRC| ws > Sending message type=refreshed-anilist-manga-collection
+2025-09-23 19:18:01 |TRC| method=GET status=200 uri=/api/v1/library/collection latency_human="176.361µs"
+2025-09-23 19:18:01 |TRC| method=GET status=200 uri=/api/v1/library/collection latency_human="118.179µs"
+2025-09-23 19:18:01 |TRC| method=GET status=200 uri=/api/v1/anilist/collection latency_human="242.505µs"
+2025-09-23 19:18:01 |TRC| method=GET status=200 uri=/api/v1/anilist/collection latency_human="401.963µs"
+2025-09-23 19:18:01 |TRC| method=GET status=200 uri=/api/v1/library/anime-entry/2001 latency_human="332.606µs"
+2025-09-23 19:18:01 |TRC| method=GET status=200 uri=/api/v1/library/anime-entry/2001 latency_human="408.528µs"
+2025-09-23 19:18:01 |TRC| method=GET status=200 uri=/api/v1/library/missing-episodes latency_human="206.673µs"
+2025-09-23 19:18:01 |TRC| method=GET status=200 uri=/api/v1/library/missing-episodes latency_human="28.567µs"
+2025-09-23 19:18:02 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:18:05 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:18:08 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:18:11 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:18:14 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:18:17 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:18:20 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:18:23 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:18:26 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:18:29 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:18:32 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:18:35 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:18:38 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:18:41 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:18:44 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:18:47 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:18:50 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:18:53 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:18:56 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:18:59 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:19:02 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:19:05 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:19:08 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:19:11 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:19:14 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:19:17 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:19:20 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:19:23 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:19:26 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:19:29 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:19:32 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:19:35 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:19:38 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:19:41 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:19:44 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:19:47 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:19:50 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:19:53 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:19:56 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:19:59 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:20:02 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:20:05 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:20:08 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:20:11 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:20:14 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:20:17 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:20:20 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:20:23 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:20:26 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:20:29 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:20:32 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:20:35 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:20:38 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:20:41 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:20:44 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:20:47 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:20:50 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:20:53 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:20:56 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:20:59 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:21:02 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:21:05 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:21:08 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:21:11 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:21:14 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:21:17 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:21:20 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:21:23 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:21:26 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:21:29 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:21:32 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:21:35 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:21:38 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:21:41 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:21:44 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:21:47 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:21:50 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:21:53 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:21:56 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:21:59 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:22:02 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:22:05 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:22:08 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:22:11 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:22:14 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:22:17 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:22:20 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:22:23 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:22:26 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:22:29 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:22:32 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:22:35 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:22:38 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:22:41 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:22:44 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:22:47 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:22:50 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:22:53 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:22:56 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:22:59 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:23:02 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:23:05 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:23:08 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:23:11 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:23:14 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:23:17 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:23:20 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:23:23 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:23:26 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:23:29 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:23:32 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:23:35 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:23:38 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:23:41 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:23:44 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:23:47 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:23:50 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:23:53 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:23:56 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:23:59 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:24:02 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:24:05 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:24:08 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:24:11 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:24:14 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:24:17 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:24:20 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:24:23 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:24:26 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:24:29 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:24:32 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:24:35 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:24:38 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:24:41 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:24:44 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:24:47 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:24:50 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:24:53 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:24:56 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:24:59 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:25:02 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:25:05 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:25:08 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:25:11 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:25:14 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:25:17 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:25:20 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:25:23 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:25:26 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:25:29 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:25:32 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:25:35 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:25:38 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:25:41 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:25:44 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:25:47 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:25:50 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:25:53 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:25:56 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:25:59 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:26:02 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:26:05 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:26:08 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:26:11 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:26:14 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:26:17 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:26:20 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:26:23 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:26:26 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:26:29 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:26:32 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:26:35 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:26:38 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:26:41 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:26:44 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:26:47 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:26:50 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:26:53 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:26:56 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:26:59 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:27:02 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:27:05 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:27:08 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:27:11 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:27:14 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:27:17 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:27:20 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:27:23 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:27:26 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:27:29 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:27:32 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:27:35 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:27:38 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:27:41 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:27:44 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:27:47 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:27:50 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:27:53 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:27:56 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:27:59 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:28:01 |TRC| ws > Sending message type=check-for-updates
+2025-09-23 19:28:01 |DBG| anilist > Fetching anime collection
+2025-09-23 19:28:01 |TRC| ws > Sending message type=check-for-announcements
+2025-09-23 19:28:01 |TRC| method=POST status=200 uri=/api/v1/announcements latency_human="807.395µs"
+2025-09-23 19:28:01 |INF| anilist > Successful Request rlr=29 rtt=421ms
+2025-09-23 19:28:01 |TRC| ws > Sending message type=refreshed-anilist-anime-collection
+2025-09-23 19:28:01 |TRC| ws > Sending message type=refreshed-anilist-manga-collection
+2025-09-23 19:28:01 |TRC| method=GET status=200 uri=/api/v1/library/collection latency_human="209.602µs"
+2025-09-23 19:28:01 |TRC| method=GET status=200 uri=/api/v1/library/collection latency_human="172.864µs"
+2025-09-23 19:28:01 |TRC| method=GET status=200 uri=/api/v1/anilist/collection latency_human="311.015µs"
+2025-09-23 19:28:01 |TRC| method=GET status=200 uri=/api/v1/anilist/collection latency_human="182.432µs"
+2025-09-23 19:28:01 |TRC| method=GET status=200 uri=/api/v1/library/anime-entry/2001 latency_human="482.97µs"
+2025-09-23 19:28:01 |TRC| method=GET status=200 uri=/api/v1/library/anime-entry/2001 latency_human="492.399µs"
+2025-09-23 19:28:01 |TRC| method=GET status=200 uri=/api/v1/library/missing-episodes latency_human="222.522µs"
+2025-09-23 19:28:01 |TRC| method=GET status=200 uri=/api/v1/library/missing-episodes latency_human="25.773µs"
+2025-09-23 19:28:02 |TRC| method=GET status=200 uri=/api/v1/latest-update latency_human=529.612276ms
+2025-09-23 19:28:02 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:28:05 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:28:08 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:28:11 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:28:14 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:28:17 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:28:20 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 19:28:24 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 20:13:20 2025/09/23 20 >13:20 error resending packet: write udp4 0.0.0.0:43213->98.159.36.139:17992: sendto: network is unreachable
+2025-09-23 20:13:20 2025/09/23 20 >13:20 error resending packet: write udp4 0.0.0.0:43213->98.159.36.139:12582: sendto: network is unreachable
+2025-09-23 20:13:20 2025/09/23 20 >13:20 error resending packet: write udp4 0.0.0.0:43213->98.159.36.139:59426: sendto: network is unreachable
+2025-09-23 20:13:20 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 20:13:20 |DBG| ws > Client disconnection id=ccd32b08-b3b0-4d1d-be4d-ecf69ae874f3
+2025-09-23 20:13:23 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 20:13:23 |DBG| ws > Client connected id=ccd32b08-b3b0-4d1d-be4d-ecf69ae874f3
+2025-09-23 20:13:26 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 20:13:27 |TRC| method=GET status=200 uri=/api/v1/library/collection latency_human="222.802µs"
+2025-09-23 20:13:27 |TRC| method=GET status=200 uri=/api/v1/anilist/collection latency_human="238.517µs"
+2025-09-23 20:13:27 |TRC| method=GET status=200 uri=/api/v1/library/missing-episodes latency_human="24.236µs"
+2025-09-23 20:13:27 |TRC| method=GET status=200 uri=/api/v1/latest-update latency_human="115.522µs"
+2025-09-23 20:13:27 |TRC| method=GET status=200 uri=/api/v1/status latency_human="553.025µs"
+2025-09-23 20:13:27 |TRC| method=GET status=200 uri=/api/v1/auto-downloader/items latency_human="674.553µs"
+2025-09-23 20:13:27 |TRC| method=GET status=200 uri=/api/v1/manga/collection latency_human="482.761µs"
+2025-09-23 20:13:27 |TRC| method=GET status=200 uri=/api/v1/extensions/list latency_human="200.522µs"
+2025-09-23 20:13:27 |TRC| method=GET status=200 uri=/api/v1/extensions/updates latency_human="13.759µs"
+2025-09-23 20:13:27 |TRC| method=GET status=200 uri=/api/v1/extensions/plugin-settings latency_human="252.765µs"
+2025-09-23 20:13:27 |TRC| method=GET status=200 uri=/api/v1/extensions/list/development latency_human="24.027µs"
+2025-09-23 20:13:27 |TRC| method=GET status=200 uri=/api/v1/continuity/history latency_human="327.149µs"
+2025-09-23 20:13:27 |TRC| anilist platform > Fetching anime details
+2025-09-23 20:13:27 |DBG| anilist > Fetching anime details mediaId=2001
+2025-09-23 20:13:27 |TRC| anilist platform > Fetching anime with relations
+2025-09-23 20:13:27 |DBG| anilist > Fetching complete media mediaId=2001
+2025-09-23 20:13:27 |TRC| method=GET status=200 uri=/api/v1/library/anime-entry/2001 latency_human=233.881503ms
+2025-09-23 20:13:28 |INF| anilist > Successful Request rlr=29 rtt=424ms
+2025-09-23 20:13:28 |DBG| torrentstream > Using cached episode collection
+2025-09-23 20:13:28 |TRC| method=GET status=200 uri=/api/v1/anime/episode-collection/2001 latency_human=424.894874ms
+2025-09-23 20:13:28 |INF| anilist > Successful Request rlr=28 rtt=679ms
+2025-09-23 20:13:28 |TRC| method=GET status=200 uri=/api/v1/anilist/media-details/2001 latency_human=679.979765ms
+2025-09-23 20:13:29 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 20:13:32 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 20:13:35 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 20:13:38 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 20:13:41 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 20:13:44 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 20:13:47 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 20:13:50 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 20:13:53 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 20:13:56 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 20:13:59 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 20:14:02 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 20:14:05 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 20:14:08 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 20:14:11 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 20:14:14 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 20:14:17 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 20:14:20 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 20:14:23 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 20:14:26 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: 53 KiB/s, Size: 148 MiB
+2025-09-23 20:14:29 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: 464 KiB/s, Size: 148 MiB
+2025-09-23 20:14:32 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: 213 KiB/s, Size: 148 MiB
+2025-09-23 20:14:35 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: 459 KiB/s, Size: 148 MiB
+2025-09-23 20:14:38 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: 362 KiB/s, Size: 148 MiB
+2025-09-23 20:14:41 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: 490 KiB/s, Size: 148 MiB
+2025-09-23 20:14:44 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: 224 KiB/s, Size: 148 MiB
+2025-09-23 20:14:47 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 20:14:50 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 20:14:53 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 20:14:56 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 20:14:59 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 20:15:02 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 20:15:05 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 20:15:08 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 20:15:11 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 20:15:13 |DBG| ws > Client disconnection id=ccd32b08-b3b0-4d1d-be4d-ecf69ae874f3
+2025-09-23 20:15:14 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 20:15:16 |TRC| mpv cmd > Exiting... (Quit)
+2025-09-23 20:15:16 |DBG| mpv > Connection has been closed
+2025-09-23 20:15:16 |DBG| mpv > Closing socket connection
+2025-09-23 20:15:16 |TRC| mpv > Terminating
+2025-09-23 20:15:16 |TRC| mpv > Resetting playback status
+2025-09-23 20:15:16 |TRC| mpv > Terminated
+2025-09-23 20:15:16 |DBG| mpv > Instance closed
+2025-09-23 20:15:16 |DBG| mpv > Context cancelled
+2025-09-23 20:15:16 |WRN| mpv > Player has exited error="signal: killed"
+2025-09-23 20:15:17 |ERR| media player > Failed to get player status, retrying (1/5)
+2025-09-23 20:15:17 |TRC| torrentstream > Progress: 100.00%, Download speed: , Upload speed: , Size: 148 MiB
+2025-09-23 20:15:18 |TRC| Received signal > interrupt
