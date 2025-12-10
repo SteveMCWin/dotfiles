@@ -32,6 +32,8 @@ return {
                 "bash",
                 "vim",
                 "vimdoc",
+                "typst",
+                "python",
             },
 
             incremental_selection = {

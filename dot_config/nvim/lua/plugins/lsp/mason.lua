@@ -51,6 +51,9 @@ return {
             automatic_enable = true,
             -- servers for mason to install
             ensure_installed = {
+                "csharp_ls",
+                "tinymist",
+                "pylsp",
                 "sqlls",
                 "vtsls",
                 "ts_ls",
@@ -67,6 +70,7 @@ return {
                 "gh_actions_ls",
                 "bashls",
                 "terraformls",
+                "ltex",
             },
             automatic_installation = true,
         })
@@ -81,6 +85,7 @@ return {
                 "eslint_d",
                 "actionlint",
                 "beautysh",
+                "typstyle",
             },
 
         })
